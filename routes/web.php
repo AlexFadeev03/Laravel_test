@@ -14,11 +14,4 @@ use App\Http\Controllers\UserController;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-//Route::resource('/address','AddressController');
-//Route::resource('/user','UserController');
-
 Route::get('/',[UserController::class, 'show']);
-//Route::get('list',[AddressController::class, 'show']);
